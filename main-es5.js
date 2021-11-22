@@ -1480,7 +1480,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       },
       decls: 32,
       vars: 0,
-      consts: [[1, "login-sidebar"], [1, "col-11", "col-sm-10", "mx-auto"], [1, "top-login", "mt-5", "pb-5"], [1, "row"], [1, "col"], [1, "light-orange"], [1, "col", "text-right"], ["aria-hidden", "true", 1, "fa", "fa-times", "fa-fw", "fa-2x", "text-white", 3, "click"], [1, "login-image", "mt-5", "mx-auto"], [1, "login-form", "text-center", "mx-auto", "mt-4"], [1, "form-group", "position-relative"], ["type", "text", "name", "name", "placeholder", "Username", 1, "p-2"], [1, "fa", "fa-user", "fa-fw", "light-orange", "custom-user-icon"], ["type", "password", "name", "password", "placeholder", "Password", 1, "p-2"], ["aria-hidden", "true", 1, "fa", "fa-lock", "fa-fw", "light-orange"], ["aria-hidden", "true", 1, "fa", "fa-eye", "fa-fw", "light-orange", "custom-eye-icon"], [1, "custom-checkbox", "custom-control", "light-orange"], ["type", "checkbox", "id", "customCheck1", 1, "custom-control-input"], ["for", "customCheck1", 1, "custom-control-label"], ["type", "submit", "name", "submit", 1, "btn", "btn-block", "mt-5", "btn-custom"], [1, "text-center", "text-white", "my-4"], [1, "text-center", "light-orange", "my-4"]],
+      consts: [[1, "login-sidebar"], [1, "col-11", "col-sm-10", "mx-auto"], [1, "top-login", "mt-5", "pb-5"], [1, "row"], [1, "col"], [1, "light-orange"], [1, "col", "text-right"], ["aria-hidden", "true", 1, "fa", "fa-times", "fa-fw", "fa-2x", "text-white", 3, "click"], [1, "login-image", "mt-5", "mx-auto"], ["src", "assets/login-logo.png", "alt", "image", 1, "img-responsive"], [1, "login-form", "text-center", "mx-auto", "mt-4"], [1, "form-group", "position-relative"], ["type", "text", "name", "name", "placeholder", "Username", 1, "p-2"], [1, "fa", "fa-user", "fa-fw", "light-orange", "custom-user-icon"], ["type", "password", "name", "password", "placeholder", "Password", 1, "p-2"], ["aria-hidden", "true", 1, "fa", "fa-lock", "fa-fw", "light-orange"], ["aria-hidden", "true", 1, "fa", "fa-eye", "fa-fw", "light-orange", "custom-eye-icon"], [1, "custom-checkbox", "custom-control", "light-orange"], ["type", "checkbox", "id", "customCheck1", 1, "custom-control-input"], ["for", "customCheck1", 1, "custom-control-label"], ["type", "submit", "name", "submit", 1, "btn", "btn-block", "mt-5", "btn-custom"], [1, "text-center", "text-white", "my-4"], [1, "text-center", "light-orange", "my-4"]],
       template: function SidebarComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
@@ -1519,37 +1519,37 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, " <img src=assets/login-logo.png\" class=\"img-responsive\" alt=\"image\"> ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "img", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "div", 10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "form");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "div", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "input", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "input", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "i", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](17, "input", 13);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](18, "i", 14);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](19, "i", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](15, "i", 13);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "div", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "input", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](17, "input", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "label", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](18, "i", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](19, "i", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "div", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "input", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "label", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, "Remember Me");
 
@@ -1557,7 +1557,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "button", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "button", 20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Sign In");
 
@@ -1565,7 +1565,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "span");
 
@@ -1575,7 +1575,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "div", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "div", 22);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "span");
 
