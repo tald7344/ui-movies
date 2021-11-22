@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "deploy": "npm run build && gh-pages -d dist"
   },
-    "homepage": "https://tald7344.github.io/ui-movies/",
+  "homepage": "https://tald7344.github.io/ui-movies/",
   "private": true,
   "dependencies": {
     "@agm/core": "^3.0.0-beta.0",
