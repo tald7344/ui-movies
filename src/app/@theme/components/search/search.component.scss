@@ -1,0 +1,47 @@
+@import "../../../../variable";
+.search-box {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    background: rgb(57,57,57);
+    background: linear-gradient(0deg, rgb(28 28 28 / 97%) 0%, rgb(49 48 48 / 96%) 50%, rgba(102, 102, 102, 0.44) 100%);
+    .search-content {
+        transform: translateY(25vh);
+        .result-item {
+            position: relative;
+            width: 100%;
+            height: max-content;
+            border-radius: 10px;
+            overflow: hidden;
+            // box-shadow: 0px 0px 25px 0px #504f4f;
+            box-shadow: 0px 0px 25px 0px $light-black;
+            .item-overlay {display: none;}
+            &:hover {
+                .item-overlay {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    inset: 0;
+                    text-align: center;
+                    backdrop-filter: blur(1px);
+                    background-color: rgba(87,85,85,0.82);
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                    box-shadow: 1px 2px 3px 2px #000;
+                    p { font-size: 1.1rem }
+                }
+            }
+        }
+        h6 span {
+            font-size: .6rem;
+            color: $grey;
+            &:last-child {
+                float: right;
+                line-height: 2.5;
+            }
+        }
+    }
+}

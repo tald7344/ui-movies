@@ -1,0 +1,12 @@
+/*
+    ===================================
+        MIXIN FUNCTION FOR SASS FILE
+    ===================================
+*/
+
+@mixin boxShadow($x, $y, $spread, $depth, $color) {
+  -webkit-box-shadow: $x $y $spread $depth $color;
+  -moz-box-shadow: $x $y $spread $depth $color;;
+  -o-box-shadow: $x $y $spread $depth $color;;
+  box-shadow: $x $y $spread $depth $color;;
+}

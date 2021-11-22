@@ -1,0 +1,37 @@
+<div class="login-sidebar">
+    <div class="col-11 col-sm-10 mx-auto">
+        <div class="top-login mt-5 pb-5">
+            <div class="row">
+                <div class="col">
+                    <span class="light-orange">Login / Register</span>
+                </div>
+                <div class="col text-right">
+                    <i (click)="closeSidebar()" class="fa fa-times fa-fw fa-2x text-white" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+      <div class="login-image mt-5 mx-auto">
+        <img src="../../../../assets/login-logo.png" class="img-responsive" alt="image">
+      </div>
+      <div class="login-form text-center mx-auto mt-4">
+        <form>
+          <div class="form-group position-relative">
+            <input type="text" class="p-2" name="name" placeholder="Username">
+            <i class="fa fa-user fa-fw light-orange custom-user-icon"></i>
+          </div> 
+          <div class="form-group position-relative">
+            <input type="password" class="p-2" name="password" placeholder="Password">
+            <i class="fa fa-lock fa-fw light-orange" aria-hidden="true"></i>
+            <i class="fa fa-eye fa-fw light-orange custom-eye-icon" aria-hidden="true"></i>
+          </div> 
+          <div class="custom-checkbox custom-control light-orange">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Remember Me</label>
+          </div>
+          <button type="submit" name="submit" class="btn btn-block mt-5 btn-custom">Sign In</button>            
+        </form>
+        <div class="text-center text-white my-4"><span>Or</span></div>
+        <div class="text-center light-orange my-4"><span>Sing Up</span></div>
+      </div>
+    </div>
+</div>
