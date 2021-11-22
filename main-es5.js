@@ -1294,7 +1294,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-search"]],
       decls: 23,
       vars: 0,
-      consts: [[1, "search-box"], [1, "container"], [1, "search-content"], [1, "text-white", "mb-4"], [1, "light-orange"], [1, "result"], [1, "row"], [1, "col-12", "col-sm-6", "col-md-4", "col-lg-3"], [1, "result-item"], [1, "item-overlay", "light-orange"], [1, "overlay-content"], ["aria-hidden", "true", 1, "fa", "fa-external-link"], [1, ""], ["src", "assets/result-1.jpg", "alt", "name", 1, "img-responsive"], [1, "desc", "text-white", "mt-3"], [1, "date"], [1, "hash-number"]],
+      consts: [[1, "search-box"], [1, "container"], [1, "search-content"], [1, "text-white", "mb-4"], [1, "light-orange"], [1, "result"], [1, "row"], [1, "col-12", "col-sm-6", "col-md-4", "col-lg-3"], [1, "result-item"], [1, "item-overlay", "light-orange"], [1, "overlay-content"], ["aria-hidden", "true", 1, "fa", "fa-external-link"], [1, ""], ["src", "../../../../assets/result-1.jpg", "alt", "name", 1, "img-responsive"], [1, "desc", "text-white", "mt-3"], [1, "date"], [1, "hash-number"]],
       template: function SearchComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
